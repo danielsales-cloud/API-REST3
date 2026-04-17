@@ -26,6 +26,17 @@
 
 ---
 
+## Instruções de instalação
+
+1. Faça o download ou clone os arquivos do projeto.
+2. No terminal, dentro da pasta do projeto, instale as dependências:
+   `npm install`
+3. Inicie o servidor:
+   `npm run dev`
+4. A API estará disponível em: `http://localhost:3000`
+
+---
+
 ## Testes realizados
 
 * **GET todos:** retorno da lista completa de filmes com paginação e filtros
@@ -36,4 +47,4 @@
 
 ---
 
-**Nota:** O projeto utiliza SQLite para armazenamento e Nodemon para gerenciamento do servidor.
+**Nota:** O projeto utiliza SQLite para armazenamento, Nodemon para gerenciamento do servidor e acompanha a Collection do Postman para testes das rotas.
